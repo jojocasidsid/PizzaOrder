@@ -1,0 +1,39 @@
+{order number="123"}
+
+    {pizza number="1"}
+        {size}Large{/size}
+        {crust}Hand-tossed{/crust}
+        {type}Custom{/type}
+            {toppings area="0"}
+
+                {item}Peperoni{/item}
+                {item}Extra Cheese{/item}
+               
+            
+            {/toppings}
+
+            {toppings area="1"}
+
+            {item}Sausage{/item}
+            
+            {/toppings}
+
+            {toppings area="2"}
+
+            
+            {item}Mushroom{/item}
+            
+            {/toppings}
+
+
+    {/pizza}
+
+
+
+        {pizza number="1"}
+        {size}medium{/size}
+        {crust}deep dish/crust}
+        {type}peperoni feast{/type}
+
+    {/pizza}
+{/order}

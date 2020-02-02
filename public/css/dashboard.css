@@ -1,0 +1,104 @@
+body {
+    padding-top: 3.5rem;
+  }
+  
+  nav .btn-outline-light:hover {
+    color: rgb(78, 102, 148);
+  }
+
+
+  nav{
+      background-color: rgb(50, 50, 99);
+  }
+
+
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("/img/Dominos-Pepperoni-Pizza.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+
+
+.card-header{
+    color: white;
+    background-color: rgb(50, 50, 99);
+
+}
+
+
+.custom-file-uploader {
+    position: relative;
+    
+   
+  }
+  
+   input[type='file'] {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 5;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: default;
+    }
